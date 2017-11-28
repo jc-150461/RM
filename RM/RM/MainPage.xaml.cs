@@ -39,7 +39,7 @@ namespace RM
                 RM9 = w / 0.77;
                 RM10 = w / 0.75;
 
-            RMText.Text = RM1;
+            RMText.Text = RM1.ToString();
 
 
 
