@@ -5,9 +5,22 @@
              x:Class="RM.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="重さ(kg)"
                 HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="Weight"
+                  Text="     "
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"/>
+            <Label Text="回数"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Entry x:Name="Leg"
+                   Text="     "
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+            <Button Text="計算"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
