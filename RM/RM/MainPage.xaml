@@ -22,7 +22,7 @@
                     VerticalOptions="CenterAndExpand"
                     Clicked="Button_Clicked"/>
 
-            <Label Name =" LabelText"  Text="あなたの１RMは"
+            <Label x:Name="RMText" Text="あなたの１RMは"
                    HorizontalOptions="CenterAndExpand"
                     VerticalOptions="CenterAndExpand"/>
 
