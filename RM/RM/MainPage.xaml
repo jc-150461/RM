@@ -21,6 +21,11 @@
                     HorizontalOptions="CenterAndExpand"
                     VerticalOptions="CenterAndExpand"
                     Clicked="Button_Clicked"/>
+
+            <Label Name =" LabelText"  Text="あなたの１RMは"
+                   HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
