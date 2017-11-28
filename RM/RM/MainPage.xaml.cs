@@ -24,5 +24,6 @@ namespace RM
             }
             DisplayAlert("RM", RM.ToString(), "OK");
         }
+
 	}
 }
