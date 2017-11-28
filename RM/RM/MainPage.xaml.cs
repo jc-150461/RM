@@ -18,7 +18,6 @@ namespace RM
             Double w = Double.Parse(Weight.Text);
             Double l = Double.Parse(Leg.Text);
             Double RM = 0.0;
-
             if (l = 1)
             {
                 RM = w / 1;
