@@ -28,7 +28,7 @@ namespace RM
             Double RM9 = 0.0;
             Double RM10 = 0.0;
             
-                RM = w / 1.0;
+                RM1 = w / 1.0;
                 RM2 = w / 0.95;
                 RM3 = w / 0.93;
                 RM4 = w / 0.90;
