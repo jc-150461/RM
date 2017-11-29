@@ -24,7 +24,7 @@
 
             <Label x:Name="RMText" Text="あなたの１RMは"
                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="CenterAndExpand"/>
+                   
 
         </StackLayout>
     </ContentPage.Content>
