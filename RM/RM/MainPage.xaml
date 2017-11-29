@@ -5,36 +5,19 @@
              x:Class="RM.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="重さ(kg)"
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="重さ(kg)" />
             <Entry x:Name="Weight"
-                  Text="     "
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="CenterAndExpand"/>
-            <Label Text="回数"
-                   HorizontalOptions="CenterAndExpand"/>
+                  Text="     "/>
+            <Label Text="回数"/>
             <Entry x:Name="Leg"
-                   Text="     "
-                   HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
+                   Text="     "/>
             <Button Text="計算"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="CenterAndExpand"
                     Clicked="Button_Clicked"/>
 
             <Label x:Name="RMText" Text="あなたの１RMは"
                    HorizontalOptions="CenterAndExpand"/>
 
-            <!--友達を表示するタブ-->
-            <views:FrendPageTab/>
-            <!--トークを表示するタブ-->
-            <views:TalkPageTab/>
-            <!--タイムラインを表示するタブ-->
-            <views:TimelinePageTab/>
-            <!--ニュースを表示するタブ-->
-            <views:NewsPageTab/>
-            <!--設定を表示するタブ-->
-            <views:SettingPageTab/>
+      
 
 
         </StackLayout>
