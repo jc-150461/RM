@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:RM"
              x:Class="RM.MainPage">
     <ContentPage.Content>
-        <StackLayout>
+       
 
             <Grid>
                 <!-- 行の定義 -->
@@ -74,6 +74,6 @@
 
 
             </Grid>
-        </StackLayout>
+      
     </ContentPage.Content>
 </ContentPage>
