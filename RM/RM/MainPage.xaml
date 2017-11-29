@@ -23,8 +23,8 @@
                     Clicked="Button_Clicked"/>
 
             <Label x:Name="RMText" Text="あなたの１RMは"
-                   HorizontalOptions="CenterAndExpand"
-                   
+                   HorizontalOptions="CenterAndExpand"/>
+
 
         </StackLayout>
     </ContentPage.Content>
