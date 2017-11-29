@@ -4,73 +4,73 @@
              xmlns:local="clr-namespace:RM"
              x:Class="RM.MainPage">
     <ContentPage.Content>
-       
-            <Grid>
-                <!-- 行の定義 -->
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="10" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="500" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                    <RowDefinition Height="70" />
-                </Grid.RowDefinitions>
 
-                <!-- 列の定義 -->
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="80"/>
-                    <ColumnDefinition Width="150"/>
-                    <ColumnDefinition Width="500"/>
-                    <ColumnDefinition Width="250"/>
-                    <ColumnDefinition Width="250"/>
-                    <ColumnDefinition Width="250"/>
-                    <ColumnDefinition Width="250"/>
-                    <ColumnDefinition Width="250"/>
-                </Grid.ColumnDefinitions>
+        <Grid>
+            <!-- 行の定義 -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="500" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+            </Grid.RowDefinitions>
 
-                <Label Text=""
+            <!-- 列の定義 -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="500"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text=""
                    Grid.Row="0"
                    Grid.Column="2"/>
 
 
-                
 
-                <Label Text="重さ(kg)" 
+
+            <Label Text="重さ(kg)" 
                    HeightRequest="130"
                    WidthRequest="100"
                    Grid.Row="3"
                    Grid.Column="0"/>
 
-                <Label x:Name="Weight"
+            <Label x:Name="Weight"
                        Text="      "
                    HeightRequest="100"
                    WidthRequest="100"
                    Grid.Row="3"
                    Grid.Column="2"/>
 
-                <Label Text="回数" 
+            <Label Text="回数" 
                    HeightRequest="100"
                    WidthRequest="100"
                    Grid.Row="4"
                    Grid.Column="0"/>
-                
 
-                  <Entry x:Name="Leg"
+
+            <Entry x:Name="Leg"
                    Text="         "
                    HeightRequest="100"
                    WidthRequest="100"
                    Grid.Row="5"
                    Grid.Column="1"/>
 
-                  <Button Text="計算"
+            <Button Text="計算"
                    HeightRequest="100"
                    WidthRequest="100"
                    Grid.Row="6"
                    Grid.Column="1"/>
 
-            <Labelx:Name="RMText" Text="あなたの１RMは"
+            <Label x:Name="RMText" Text="あなたの１RMは"
                    HeightRequest="100"
                    WidthRequest="100"
                    Grid.Row="6"
@@ -84,23 +84,21 @@
                     Grid.Column="0"
                     Clicked="Button_Clicked"/>
 
-                <Button Text="記録"
+            <Button Text="記録"
                     HeightRequest="100"
                     WidthRequest="100"
                     Grid.Row="7"
                     Grid.Column="1"
                     Clicked="Button_Clicked"/>
 
-                <Button Text="ストップウォッチ"
+            <Button Text="ストップウォッチ"
                     HeightRequest="100"
                     WidthRequest="100"
                     Grid.Row="7"
                     Grid.Column="2"
                     Clicked="Button_Clicked"/>
 
+        </Grid>
 
-
-            </>
-      
     </ContentPage.Content>
 </ContentPage>
