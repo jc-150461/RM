@@ -25,6 +25,17 @@
             <Label x:Name="RMText" Text="あなたの１RMは"
                    HorizontalOptions="CenterAndExpand"/>
 
+            <!--友達を表示するタブ-->
+            <views:FrendPageTab/>
+            <!--トークを表示するタブ-->
+            <views:TalkPageTab/>
+            <!--タイムラインを表示するタブ-->
+            <views:TimelinePageTab/>
+            <!--ニュースを表示するタブ-->
+            <views:NewsPageTab/>
+            <!--設定を表示するタブ-->
+            <views:SettingPageTab/>
+
 
         </StackLayout>
     </ContentPage.Content>
